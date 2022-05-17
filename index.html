@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
+
+		<title>Nutrition Checker</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<main>
+			<img src="img/alex-kondratiev-Faf6gzEI3Do-unsplash.jpg" alt="">
+		</main>
+
+		<h1>. . . Vegan Checker . . .</h1>
+		
+		<label for="barcode">Enter a UPC barcode number (12 digits)</label>
+		<input type="number" id="barcode" name="barcode" placeholder="Ex: 011110038364" >
+		<section class="bsection">
+			<button type="button" onclick="getFetch();">Check If Vegan</button>
+		</section>
+		<section>
+			<h1>. . . . . .</h1>
+		</section>	
+		<img id="product-img" src= ''>
+		<h2 id="product-name"></h2>
+		<table id="ingredient-table">
+			<tr>
+				<th>Ingredient</th>
+				<th>Is it Vegan?</th>
+			</tr>
+		</table>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
